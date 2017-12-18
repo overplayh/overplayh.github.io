@@ -1,24 +1,35 @@
 {
   "settings": {
-    "name": "overplayh",
+    "name": "Site-12-18_1308",
     "currentPage": "index.html",
-    "versionFirst": "4.0.14",
-    "uniqCompNum": 18,
-    "versionPublish": "4.5.2",
     "theme": {
-      "additionalSetColors": []
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
     },
-    "favicon": "",
-    "noImageResize": "",
-    "cookiesAlert": "",
-    "google-analytics": "",
-    "siteUrl": "undefined"
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 2,
+    "versionPublish": "4.5.2"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Bem Vindos",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -26,37 +37,17 @@
       },
       "components": [
         {
-          "_name": "menu1"
-        },
-        {
-          "_name": "footer1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#444444",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "_anchor": "footer1-f"
-        },
-        {
-          "_inherit": "header1",
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": false,
+            "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": false,
-            "bgImage": "images/bg.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#4c6972",
+            "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/embed/jqFj5gi1F7Q?rel=0&amp;showinfo=0&autoplay=0&loop=0",
@@ -65,72 +56,17 @@
               "height": 720
             },
             "overlay": false,
-            "overlayColor": "#222",
+            "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
           "title": "BEM VINDOS",
           "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ver filmes</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VER FILMES</a>",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-g",
-          "_styles": {
-            "H1": {
-              "font-size": "80px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "<p>&nbsp; &nbsp; TÁ FALTANDO SEU FILME FAVORITO ?<br></p>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">enviar</a>",
-          "form": {
-            "action": "arombado321@gmail.com",
-            "alerts": {
-              "success": "obrigado!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Nome*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "gmail*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "não colocamos nenhum tipo de arquivo, apenas indexamos"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-h"
+          "_name": "header1",
+          "_anchor": "header1-1"
         }
       ]
     }
