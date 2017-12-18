@@ -994,8 +994,8 @@ h6,
 #menu-m .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#msg-box7-n .mbr-section-title,
-#msg-box7-n .lead p {
+#msg-box7-w .mbr-section-title,
+#msg-box7-w .lead p {
   color: #fff;
 }
 #menu-o .hide-buttons .nav-btn {
@@ -1195,6 +1195,9 @@ h6,
 #msg-box7-t .mbr-section-title,
 #msg-box7-t .lead p {
   color: #fff;
+}
+#msg-box7-t H3 {
+  color: #ffffff;
 }
 #menu-u .hide-buttons .nav-btn {
   display: none !important;

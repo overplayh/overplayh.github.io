@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OVERPLAYH",
-    "currentPage": "index.html",
+    "currentPage": "page12.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,7 +26,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 32,
+    "uniqCompNum": 33,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-128x140.png",
     "noImageResize": "",
@@ -1636,7 +1636,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dragonball-evolution-1066x512.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1666,14 +1666,14 @@
               "size": 250
             }
           },
-          "title": "Dragon Ball:evolution",
+          "title": "Dragon Ball:Evolution",
           "text": "Em seu aniversário de 18 anos, Goku ganha uma esfera do dragão mística de presente de seu avô. Existem apenas seis outras no mundo todo, e reza a lenda que será concedido um desejo a quem possuir todas as sete. Quando uma força obscura provoca uma tragédia, Goku e seus amigos embarcam em uma jornada épica para recolher as sete esferas do dragão e salvar o planeta da destruição.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-n"
+          "_anchor": "msg-box7-w"
         }
       ]
     },
@@ -2075,6 +2075,9 @@
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
+            },
+            "H3": {
+              "color": "#ffffff"
             }
           },
           "_params": {
