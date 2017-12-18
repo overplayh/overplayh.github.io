@@ -67,7 +67,7 @@
           },
           "title": "BEM VINDOS",
           "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VER FILMES</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">VER FILMES</a>",
           "_tags": [
             "Theme"
           ],
