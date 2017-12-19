@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OVERPLAYH",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,7 +26,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 119,
+    "uniqCompNum": 146,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-128x140.png",
     "noImageResize": "",
@@ -38,7 +38,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "BEM VINDOS",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -76,6 +76,68 @@
           ],
           "_name": "header1",
           "_anchor": "header1-1"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": false,
+            "labelsColor": "#ffffff",
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "TÁ FALTANDO SEU FILME FAVORITO ?",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">enviar</a>",
+          "form": {
+            "action": "arombado321@gmail.com",
+            "alerts": {
+              "success": "Obrigado!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-3o",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "13px"
+            }
+          }
         }
       ]
     },
@@ -83,7 +145,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "FILMES",
-        "order": 5
+        "order": 2
       },
       "components": [
         {
@@ -155,8 +217,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -164,7 +227,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
@@ -178,11 +241,11 @@
             "showSubtitles": false,
             "ShowTexts": false,
             "showButtons": false,
-            "paddingTop": 2,
+            "paddingTop": "1",
             "paddingBottom": "0",
             "columns": "6",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/thor-ragnarok-character-posters_8vyd-1370x771.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#000000",
@@ -309,7 +372,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#100d0d",
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -434,7 +497,129 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#15100f",
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/american-pizza-movie-40527-600x888.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page21.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/20086183-250x350.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page24.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1200x630bb-420x630.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page25.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/t86c0zmbwoj0hh8q9qsror8kqua-185x261.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page22.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/wuzelnvd2u5fwp0vyp6urqwqgey-185x268.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page23.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nydxgsqhzwq56baqxnk8mdzeway-185x269.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page26.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-19"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -558,7 +743,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#15100f",
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -569,44 +754,47 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/american-pizza-movie-40527-600x888.jpg",
+              "src": "@PROJECT_PATH@/assets/images/9ndfg0yuzlsnx35rk9wexb5setz-1-185x272.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page21.html",
+              "link": "page29.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/20086183-250x350.jpg",
+              "src": "@PROJECT_PATH@/assets/images/2jjp42icigol5rtebb1pfhvtuno-185x262.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page24.html",
+              "link": "page30.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1200x630bb-420x630.jpg",
+              "src": "@PROJECT_PATH@/assets/images/kndkgxycjzwdjt3mqbk7ietu8xj-185x276.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page25.html",
+              "link": "page31.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/t86c0zmbwoj0hh8q9qsror8kqua-185x261.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wgosarow0vrkkkcur8jt2b8owth-185x278.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page22.html",
+              "link": "page32.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -614,22 +802,23 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/wuzelnvd2u5fwp0vyp6urqwqgey-185x268.jpg",
+              "src": "@PROJECT_PATH@/assets/images/2prgvgmpudltpo0bte5rneuwbf6-185x278.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page33.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media6": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/nydxgsqhzwq56baqxnk8mdzeway-185x269.jpg",
+              "src": "@PROJECT_PATH@/assets/images/5mxdohkpff6xrid0mdfzdpseesa-185x278.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "page26.html",
+              "link": "page34.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -663,7 +852,131 @@
             "Theme"
           ],
           "_name": "features3",
-          "_anchor": "features3-19"
+          "_anchor": "features3-3b"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/4d5gg79fbiald6uokbq93rsapij-185x261.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page35.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/wyo6rwmdbldox9kiu20xiolsqtm-185x278.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page36.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/009845-300x407.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page37.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/7g9da4hlwykemhlew6vgb4qr8so-185x278.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page38.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6bsg03vvkb41vzs6w1nvpfvq2yh-600x882.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://s.filmesmania.com.br/embed/5610570090/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/tfdivvjkymbuoxdwibpjzu5dy6s-600x882.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://animes.animesgxoficialbr.tk/embed/2604564778/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-3q"
         }
       ]
     },
@@ -671,7 +984,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Pica pau",
-        "order": 27
+        "order": 36
       },
       "components": [
         {
@@ -743,8 +1056,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -752,7 +1066,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
@@ -826,6 +1140,1359 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "A mumia",
+        "order": 35
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-7"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mumia-2-750x380.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmania.com.br/player/?id=0BwUqN2UEdAtJN1dDT0FQM1dsa28",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "A Mumia",
+          "text": "Nas profundezas do deserto, uma antiga rainha cujo destino foi injustamente tirado está mumificada. Apesar de estar sepultada em sua cripta, ela desperta nos dias atuais. Com uma maldade acumulada ao longo dos anos, ela espelha terror desde as areais do Oriente Médio até os becos de Londres.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-8"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "o chamado 3",
+        "order": 34
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-9"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ring-3-rings-movie-release-date-2016-1280x640.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://vidoza.net/bhtdooqv7xp6.html",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "O chamado 3",
+          "text": "Julia resolve se distanciar do namorado Holt após assistir uma fita amaldiçoada. Depois, eles terão que se unir para salvarem suas vidas de uma possuída Samara.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-a"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Feito na america",
+        "order": 33
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-b"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/feito-na-amc3a9rica-e-embalado-na-medida-para-o-talento-de-tom-cruise-13-768x376.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://playflixhd.co/FOXCO057",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Feito na america",
+          "text": "A vida de Barry Seal, um piloto que, na década de 1980, traficava drogas e armas para a CIA e o cartel de Medellín ao mesmo tempo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-c"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "valerian",
+        "order": 32
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-d"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/valerian-art-dane-dehaan-cara-delevingne-1-1800x900.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmania.com.br/player/?id=0B4AGwkLkGPPjUkdYXzlWV1pqeEE",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Valerian e a Cidade dos Mil Planetas",
+          "text": "Valérian é um agente viajante do tempo e do espaço que luta ao lado da parceira Laureline, por quem é apaixonado, em defesa da Terra e seus planetas aliados, continuamente atacados por bandidos intergaláticos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-e"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "O ultimo cavaleiro",
+        "order": 31
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-f"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x720.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmania.com.br/player/?id=0B2_SR3ymiJSDVDB0NkZhbjFKdW8",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "transformers O ultimo cavaleiro",
+          "text": "O gigante Optimus Prime embarcou em uma das missões mais difíceis de sua vida: encontrar, no espaço sideral, os Quintessons, seres que possivelmente são os responsáveis pela criação da raça Transformers. O problema é que, enquanto isso, seus amigos estão precisando de muita ajuda na Terra, já que uma nova ameaça alienígena resolveu destruir toda a humanidade.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-g"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "meta_descr": "Website Maker Description",
+        "title": "robert",
+        "order": 30
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-k"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/robert-1200x600.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nclozS3dRY3dTRlBxcXhOMDlFVEFWbHNuMUsyL1pWdldYbzljQkM3aGh5TllZK010TkZRVDFuVldSTWY4MnZGN1h2MHdLL0ExSjJoRThZL3NycU5kWHE=&sub=",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "O criador do boneco robert",
+          "text": "Precisando de dinheiro, uma estudante aceita trabalhar no horário noturno em um museu. Lá, ela suspeita que uma das peças em exibição - um boneco aterrorizante chamado Robert - está viva, espalhando o horror durante a madrugada.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-l"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "meta_descr": "Web Page Generator Description",
+        "title": "Dragon ball evolution",
+        "order": 29
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-m"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dragonball-evolution-780x439.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncVpZeFllRk5EdmlZUVpPTHM5Ylp0cDhWaHZkZHJ2dTJzQjNBMS90N0dudEhrR1QxUVQ0STExU21DVWNMOEQ4ZEVUMlJNS2RGVUpCUXBnNlpXOG5iN2JtK3lGaVA0OU5lc3g5RHg5YUZKQWtQZ1VYTDBURVRoU2M2TWQ3ZVBhbHFZPQ==&sub=",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Dragon Ball:Evolution",
+          "text": "Em seu aniversário de 18 anos, Goku ganha uma esfera do dragão mística de presente de seu avô. Existem apenas seis outras no mundo todo, e reza a lenda que será concedido um desejo a quem possuir todas as sete. Quando uma força obscura provoca uma tragédia, Goku e seus amigos embarcam em uma jornada épica para recolher as sete esferas do dragão e salvar o planeta da destruição.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-w"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "os mercenarios",
+        "order": 28
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-o"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/the-expendables-3-620360-620x360.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmania.com.br/player/?id=0B0zQFegvNRnYLThUZ3MzekpEMkE",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Os Mercenarios",
+          "text": "Um grupo de mercenários, liderado por Barney Ross, e seus homens de confiança aceitam uma missão que parece ser rotineira: uma operação secreta, a mando da Igreja, para invadir o país sul-americano de Vilena e derrubar seu ditador. Não demora muito para o grupo perceber que a missão é uma operação suicida. Presos em uma perigosa teia de traições, mas sabendo que um inocente está em perigo, Barney e seus homens decidem finalizar o trabalho.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-p"
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "meta_descr": "Web Site Creator Description",
+        "title": "Piratas do caribe:A Vingança de salazar",
+        "order": 27
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-q"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "48px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/piratas-do-caribe-franquia-cinemas-1158x595.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmaniahd.com/player/encriptar.php?v=ZWpUSFhEdzNvYUFTWTY5aUVlRTZteFVJY0VjSytydVFzcjZDZG1ONmtEV2oyRW4xd1lMZUFOSDVHOXNDZnJ0UWpPcWJsWmNScWVFU29RZ2xtbmtHOW1xWHN3bVRMdG9rYU85anhrRXlmVVE9",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Piratas do Caribe:a<br> vingança de salazar",
+          "text": "O capitão Salazar é a nova pedra no sapato do capitão Jack Sparrow. Ele lidera um exército de piratas fantasmas assassinos e está disposto a matar todos os piratas existentes na face da Terra. Para escapar, Sparrow precisa encontrar o Tridente de Poseidon, que dá ao seu dono o poder de controlar o mar.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-r"
+        }
+      ]
+    },
+    "page12.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "Mulher maravilha",
         "order": 26
       },
       "components": [
@@ -898,8 +2565,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -907,18 +2575,21 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-7"
+          "_anchor": "menu-s"
         },
         {
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
+            },
+            "H3": {
+              "color": "#ffffff"
             }
           },
           "_params": {
@@ -930,7 +2601,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mumia-2-750x380.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -949,7 +2620,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmania.com.br/player/?id=0BwUqN2UEdAtJN1dDT0FQM1dsa28",
+              "src": "http://filmesmaniahd.com/player/encriptar.php?v=ckxHcWhvWExhbmcvWXh2NjRkMkJoT3NrNHpZSnZQR2d5MlRhc2dUN0NHZzUxYjFWWE9nU0VKUjRxYlI4SmVQVG5YcG9uTUt6VFBzcFBxdzJKVlpLWENDdVRldlVMRzJnVjRQejJpYmtBQms9",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -960,21 +2631,21 @@
               "size": 250
             }
           },
-          "title": "A Mumia",
-          "text": "Nas profundezas do deserto, uma antiga rainha cujo destino foi injustamente tirado está mumificada. Apesar de estar sepultada em sua cripta, ela desperta nos dias atuais. Com uma maldade acumulada ao longo dos anos, ela espelha terror desde as areais do Oriente Médio até os becos de Londres.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "title": "Mulher maravilha",
+          "text": "Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. Quando o piloto Steve Trevor se acidenta e cai em uma praia do local, ela descobre que uma guerra sem precedentes está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o conflito. Lutando para acabar com todas as lutas, Diana percebe o alcance de seus poderes e sua verdadeira missão na Terra.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-8"
+          "_anchor": "msg-box7-t"
         }
       ]
     },
-    "page4.html": {
+    "page13.html": {
       "settings": {
-        "meta_descr": "Site Generator Description",
-        "title": "o chamado 3",
+        "meta_descr": "Web Page Generator Description",
+        "title": "A grande muralha",
         "order": 25
       },
       "components": [
@@ -1047,8 +2718,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1056,12 +2728,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-9"
+          "_anchor": "menu-u"
         },
         {
           "_inherit": "msg-box5",
@@ -1079,7 +2751,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ring-3-rings-movie-release-date-2016-1280x640.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/grande-muralha-16-02-2017-1000x472.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1098,7 +2770,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://vidoza.net/bhtdooqv7xp6.html",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncjVJandhQUY2WUxVVzFXWGZMMnRiTTdQNVNZNno1d1pEQmVlVkNQcVhNdlpubWJ2bmovaVlUcFpoTXB1elRLM3A4Vnk5TUpVZHZCRFYrOEZWTVdZTzA=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -1109,21 +2781,21 @@
               "size": 250
             }
           },
-          "title": "O chamado 3",
-          "text": "Julia resolve se distanciar do namorado Holt após assistir uma fita amaldiçoada. Depois, eles terão que se unir para salvarem suas vidas de uma possuída Samara.",
+          "title": "A Grande Muralha",
+          "text": "No século XV, William (Matt Damon) e Tovar (Pedro Pascal) são dois mercenários em busca de “pó negro” (pólvora). Depois de escaparem do ataque de uma criatura misteriosa, eles se encontram, acidentalmente, aos pés da Grande Muralha. Lá, eles acabam aprisionados pelos guerreiros chineses, que estão na iminência de sofrerem um ataque. Reza a lenda que, a cada 60 anos, uma horda de monstros tenta transpassar a barreira, para se alimentar dos humanos que vivem do outro lado.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-a"
+          "_anchor": "msg-box7-v"
         }
       ]
     },
-    "page5.html": {
+    "page14.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "Feito na america",
+        "meta_descr": "Website Maker Description",
+        "title": "Duvidas",
         "order": 24
       },
       "components": [
@@ -1196,8 +2868,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1205,74 +2878,76 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-b"
+          "_anchor": "menu-x"
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            }
-          },
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "6",
-            "paddingBottom": "6",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/feito-na-amc3a9rica-e-embalado-na-medida-para-o-talento-de-tom-cruise-13-768x376.jpg",
+            "showSubTitle": false,
+            "labelsColor": "#3d8eb9",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
+            "bgColorRadio": true,
+            "bgColor": "#15100f",
+            "overlay": false,
+            "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
+          "title": "duvidas ? fale comigo",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">enviar</a>",
+          "form": {
+            "action": "arombado321@gmail.com",
+            "alerts": {
+              "success": "Não Colocamos nenhum tipo de arquivo, Apenas indexamos"
             },
-            "video": {
-              "active": true,
-              "src": "http://playflixhd.co/FOXCO057",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "title": "Feito na america",
-          "text": "A vida de Barry Seal, um piloto que, na década de 1980, traficava drogas e armas para a CIA e o cartel de Medellín ao mesmo tempo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box7",
-          "_anchor": "msg-box7-c"
+          "_name": "form1",
+          "_anchor": "form1-y",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#3d8eb9"
+            }
+          }
         }
       ]
     },
-    "page6.html": {
+    "page15.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "valerian",
+        "meta_descr": "Website Creator Description",
+        "title": "Alice no pais da maravilha",
         "order": 23
       },
       "components": [
@@ -1345,8 +3020,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1354,12 +3030,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-d"
+          "_anchor": "menu-13"
         },
         {
           "_inherit": "msg-box5",
@@ -1377,7 +3053,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/valerian-art-dane-dehaan-cara-delevingne-1-1800x900.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/alice-in-wonderland17-2000x983.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1396,7 +3072,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmania.com.br/player/?id=0B4AGwkLkGPPjUkdYXzlWV1pqeEE",
+              "src": "http://filmesmania.com.br/player/?id=0BwUqN2UEdAtJcEpWUUZLeVlFN2s",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -1407,21 +3083,21 @@
               "size": 250
             }
           },
-          "title": "Valerian e a Cidade dos Mil Planetas",
-          "text": "Valérian é um agente viajante do tempo e do espaço que luta ao lado da parceira Laureline, por quem é apaixonado, em defesa da Terra e seus planetas aliados, continuamente atacados por bandidos intergaláticos.",
+          "title": "Alice no Pais das maravilhas",
+          "text": "Ainda garotinha, Alice Kingsleigh visitou um lugar mágico pela primeira vez e não tinha mais lembranças sobre o local a não ser em seus sonhos. Em uma festa da nobreza, a jovem vê um coelho branco. Alice o segue e cai em um buraco, indo parar em um mundo estranho: o País das Maravilhas. Lá, ela reencontra personagens que estavam guardados em sua memória através dos sonhos.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-e"
+          "_anchor": "msg-box7-2o"
         }
       ]
     },
-    "page7.html": {
+    "page16.html": {
       "settings": {
-        "meta_descr": "Web Site Generator Description",
-        "title": "O ultimo cavaleiro",
+        "meta_descr": "Site Maker Description",
+        "title": "marte precisa de mae",
         "order": 22
       },
       "components": [
@@ -1494,8 +3170,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1503,12 +3180,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-f"
+          "_anchor": "menu-14"
         },
         {
           "_inherit": "msg-box5",
@@ -1526,7 +3203,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x720.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x7200.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1545,7 +3222,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmania.com.br/player/?id=0B2_SR3ymiJSDVDB0NkZhbjFKdW8",
+              "src": "https://streamango.com/embed/fcbfotmdkmeafbsr/",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -1556,21 +3233,21 @@
               "size": 250
             }
           },
-          "title": "transformers O ultimo cavaleiro",
-          "text": "O gigante Optimus Prime embarcou em uma das missões mais difíceis de sua vida: encontrar, no espaço sideral, os Quintessons, seres que possivelmente são os responsáveis pela criação da raça Transformers. O problema é que, enquanto isso, seus amigos estão precisando de muita ajuda na Terra, já que uma nova ameaça alienígena resolveu destruir toda a humanidade.",
+          "title": "Marte Precisa de Mães",
+          "text": "Milo é um garoto de nove anos com a agenda cheia. Ele precisa assistir a filmes com monstros, ler revistas em quadrinhos e fazer outras coisas divertidas. Ele certamente não tem tempo para fazer a lição de casa ou comer legumes. O garoto está cheio de ouvir a mãe reclamando sobre essas coisas. Quando Milo está para dizer à mãe que a vida seria mais divertida sem ela, os marcianos a raptam e Milo precisa resgatá-la.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-g"
+          "_anchor": "msg-box7-2p"
         }
       ]
     },
-    "page8.html": {
+    "page19.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
-        "title": "robert",
+        "meta_descr": "Web Site Generator Description",
+        "title": "zootopia",
         "order": 21
       },
       "components": [
@@ -1643,8 +3320,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1652,12 +3330,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-k"
+          "_anchor": "menu-17"
         },
         {
           "_inherit": "msg-box5",
@@ -1675,7 +3353,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/robert-1200x600.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/flex-tablet-zootopia-selfie-c781d089-1536x864.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1694,7 +3372,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nclozS3dRY3dTRlBxcXhOMDlFVEFWbHNuMUsyL1pWdldYbzljQkM3aGh5TllZK010TkZRVDFuVldSTWY4MnZGN1h2MHdLL0ExSjJoRThZL3NycU5kWHE=&sub=",
+              "src": "https://streamango.com/embed/fsebkortdqerssrk/",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -1705,21 +3383,21 @@
               "size": 250
             }
           },
-          "title": "O criador do boneco robert",
-          "text": "Precisando de dinheiro, uma estudante aceita trabalhar no horário noturno em um museu. Lá, ela suspeita que uma das peças em exibição - um boneco aterrorizante chamado Robert - está viva, espalhando o horror durante a madrugada.",
+          "title": "Zootopia",
+          "text": "Em uma cidade de animais, uma raposa falante se torna uma fugitiva ao ser acusada de um crime que não cometeu. O principal policial do local, o incontestável coelho, sai em sua busca.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-l"
+          "_anchor": "msg-box7-2q"
         }
       ]
     },
-    "page9.html": {
+    "page20.html": {
       "settings": {
-        "meta_descr": "Web Page Generator Description",
-        "title": "Dragon ball evolution",
+        "meta_descr": "Website Builder Description",
+        "title": "John carter",
         "order": 20
       },
       "components": [
@@ -1792,8 +3470,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1801,12 +3480,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-m"
+          "_anchor": "menu-18"
         },
         {
           "_inherit": "msg-box5",
@@ -1824,7 +3503,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dragonball-evolution-780x439.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/taylor-kitsch-and-lynn-collins-in-john-carter-1429x729.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1843,7 +3522,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncVpZeFllRk5EdmlZUVpPTHM5Ylp0cDhWaHZkZHJ2dTJzQjNBMS90N0dudEhrR1QxUVQ0STExU21DVWNMOEQ4ZEVUMlJNS2RGVUpCUXBnNlpXOG5iN2JtK3lGaVA0OU5lc3g5RHg5YUZKQWtQZ1VYTDBURVRoU2M2TWQ3ZVBhbHFZPQ==&sub=",
+              "src": "https://streamango.com/embed/emarfqclpdepkkmk/",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -1854,21 +3533,21 @@
               "size": 250
             }
           },
-          "title": "Dragon Ball:Evolution",
-          "text": "Em seu aniversário de 18 anos, Goku ganha uma esfera do dragão mística de presente de seu avô. Existem apenas seis outras no mundo todo, e reza a lenda que será concedido um desejo a quem possuir todas as sete. Quando uma força obscura provoca uma tragédia, Goku e seus amigos embarcam em uma jornada épica para recolher as sete esferas do dragão e salvar o planeta da destruição.",
+          "title": "John Carter",
+          "text": "Quando o veterano da Guerra Civil John Carter acorda misteriosamente na superfície de Marte, ele não tem ideia da aventura que o aguarda. Ele acaba se envolvendo em um conflito épico entre os habitantes do planeta e o destino de todos está em suas mãos.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-w"
+          "_anchor": "msg-box7-2r"
         }
       ]
     },
-    "page10.html": {
+    "page21.html": {
       "settings": {
-        "meta_descr": "Web Site Builder Description",
-        "title": "os mercenarios",
+        "meta_descr": "Site Builder Description",
+        "title": "american pie:O casamento",
         "order": 19
       },
       "components": [
@@ -1941,8 +3620,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1950,12 +3630,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-o"
+          "_anchor": "menu-1k"
         },
         {
           "_inherit": "msg-box5",
@@ -1973,7 +3653,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/the-expendables-3-620360-620x360.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1992,7 +3672,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmania.com.br/player/?id=0B0zQFegvNRnYLThUZ3MzekpEMkE",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncmVzNERaeXlRSEx4eVhDTzVIcEtyVXhQdzFoRlpRNzRxYVlDQ2xFNi9NUE5WY0F6VFlYWlNybTlrQjNjaDgzVlJhYWZPUnlsSWpNZ3JEcnZQMnF4WDI=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2003,21 +3683,21 @@
               "size": 250
             }
           },
-          "title": "Os Mercenarios",
-          "text": "Um grupo de mercenários, liderado por Barney Ross, e seus homens de confiança aceitam uma missão que parece ser rotineira: uma operação secreta, a mando da Igreja, para invadir o país sul-americano de Vilena e derrubar seu ditador. Não demora muito para o grupo perceber que a missão é uma operação suicida. Presos em uma perigosa teia de traições, mas sabendo que um inocente está em perigo, Barney e seus homens decidem finalizar o trabalho.",
+          "title": "AMerican Pie:O Reencontro",
+          "text": "Mesmo que Jim e Michelle namorem há vários anos, ela ainda fica surpresa quando ele pede sua mão em casamento em seu restaurante favorito. Depois que ela alegremente concorda, Jim pede aos seus melhores amigos, Kevin e Paul, para ajudá-lo a ter certeza de que tudo dê certo no dia do casamento. Com a aproximação do grande dia, um problema surge quando o trio descobre que seu amigo Stifler está na cidade.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-p"
+          "_anchor": "msg-box7-2j"
         }
       ]
     },
-    "page11.html": {
+    "page22.html": {
       "settings": {
-        "meta_descr": "Web Site Creator Description",
-        "title": "Piratas do caribe:A Vingança de salazar",
+        "meta_descr": "Site Creator Description",
+        "title": "american pie: o campo de ferias",
         "order": 18
       },
       "components": [
@@ -2090,8 +3770,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2099,21 +3780,18 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-q"
+          "_anchor": "menu-1l"
         },
         {
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
-            },
-            "H3": {
-              "font-size": "48px"
             }
           },
           "_params": {
@@ -2125,7 +3803,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/piratas-do-caribe-franquia-cinemas-1158x595.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2144,7 +3822,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/player/encriptar.php?v=ZWpUSFhEdzNvYUFTWTY5aUVlRTZteFVJY0VjSytydVFzcjZDZG1ONmtEV2oyRW4xd1lMZUFOSDVHOXNDZnJ0UWpPcWJsWmNScWVFU29RZ2xtbmtHOW1xWHN3bVRMdG9rYU85anhrRXlmVVE9",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncFpNN2RmeGpFdE5LbDM3a1NMSTJncTUyck8zSVdodG9BSkFab09JdjJROWE2STQwZkt1WStMazl1NTFFc2ZkTk5IMk8vY0RrL0w3a1VlcTV6UjY3TCs=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2155,21 +3833,21 @@
               "size": 250
             }
           },
-          "title": "Piratas do Caribe:a<br> vingança de salazar",
-          "text": "O capitão Salazar é a nova pedra no sapato do capitão Jack Sparrow. Ele lidera um exército de piratas fantasmas assassinos e está disposto a matar todos os piratas existentes na face da Terra. Para escapar, Sparrow precisa encontrar o Tridente de Poseidon, que dá ao seu dono o poder de controlar o mar.",
+          "title": "American Pie:campo de ferias",
+          "text": "Matt Stiffler quer seguir os passos do irmão mais velho e produzir filmes pornográficos. Porém, antes disso ele precisa vencer alguns desafios a fim de se formar no Ensino Médio. O maior de todos é a rigidez do conselheiro educacional, que envia Matt a Tall Oaks, um acampamento musical onde acontecem várias disputas entre bandas de escolas. Frustrado e aprontando todas, o jovem aos poucos começa a se envolver com outros colegas até desenvolver um interesse especial pela estudiosa Elyse.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-r"
+          "_anchor": "msg-box7-2k"
         }
       ]
     },
-    "page12.html": {
+    "page23.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "Mulher maravilha",
+        "meta_descr": "Site Builder Description",
+        "title": "american pie:O ultimo stifler virgem",
         "order": 17
       },
       "components": [
@@ -2242,8 +3920,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2251,21 +3930,18 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-s"
+          "_anchor": "menu-1m"
         },
         {
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
-            },
-            "H3": {
-              "color": "#ffffff"
             }
           },
           "_params": {
@@ -2277,7 +3953,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2296,7 +3972,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/player/encriptar.php?v=ckxHcWhvWExhbmcvWXh2NjRkMkJoT3NrNHpZSnZQR2d5MlRhc2dUN0NHZzUxYjFWWE9nU0VKUjRxYlI4SmVQVG5YcG9uTUt6VFBzcFBxdzJKVlpLWENDdVRldlVMRzJnVjRQejJpYmtBQms9",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncHVpL0F0MjMwbC9CSlFiU1BpalpwVHRYZ095L0N3S2RGbjhXMDd2ekxadHZuVTh5Rzh5emRuOVVOaWtIN1VUNzR2YTl5OUU1M1JjWDBoTXBqZ2tieXg=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2307,21 +3983,21 @@
               "size": 250
             }
           },
-          "title": "Mulher maravilha",
-          "text": "Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. Quando o piloto Steve Trevor se acidenta e cai em uma praia do local, ela descobre que uma guerra sem precedentes está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o conflito. Lutando para acabar com todas as lutas, Diana percebe o alcance de seus poderes e sua verdadeira missão na Terra.",
+          "title": "American Pie: O ultimo Stifler virgem",
+          "text": "O primo de Matt e Steve, Erik Stifler, quer perder a virgindade antes de terminar o semestre na faculdade. Para ajudá-lo, os amigos o inscrevem um uma famosa corrida local, na qual os participantes correm nus pelo campus.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-t"
+          "_anchor": "msg-box7-2l"
         }
       ]
     },
-    "page13.html": {
+    "page24.html": {
       "settings": {
-        "meta_descr": "Web Page Generator Description",
-        "title": "A grande muralha",
+        "meta_descr": "Site Generator Description",
+        "title": "American Pie:caindo em tentação",
         "order": 16
       },
       "components": [
@@ -2394,8 +4070,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2403,12 +4080,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-u"
+          "_anchor": "menu-1n"
         },
         {
           "_inherit": "msg-box5",
@@ -2426,7 +4103,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/grande-muralha-16-02-2017-1000x472.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2445,7 +4122,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncjVJandhQUY2WUxVVzFXWGZMMnRiTTdQNVNZNno1d1pEQmVlVkNQcVhNdlpubWJ2bmovaVlUcFpoTXB1elRLM3A4Vnk5TUpVZHZCRFYrOEZWTVdZTzA=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb3cyQ053aDVJZ2xKQ0krd3ltd2E4aVBvOGlZeGNERmZDd2hqcXpBMGZ3dXJlTmhNZ3Uvc0luNVYyckp6UkdLTS9IZWhRZ0dmTm5EVTg0QnpseXQ1WWM=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2456,21 +4133,21 @@
               "size": 250
             }
           },
-          "title": "A Grande Muralha",
-          "text": "No século XV, William (Matt Damon) e Tovar (Pedro Pascal) são dois mercenários em busca de “pó negro” (pólvora). Depois de escaparem do ataque de uma criatura misteriosa, eles se encontram, acidentalmente, aos pés da Grande Muralha. Lá, eles acabam aprisionados pelos guerreiros chineses, que estão na iminência de sofrerem um ataque. Reza a lenda que, a cada 60 anos, uma horda de monstros tenta transpassar a barreira, para se alimentar dos humanos que vivem do outro lado.",
+          "title": "American Pie: caindo em tentação",
+          "text": "Erik Stifler e Cooze ingressam na vida acadêmica, na Universidade de Michigan. Os dois logo são são apresentados a Fraternidade Beta, presidida pelo lendário Dwight Stifler, primo de Erik. A Fraternidade Beta é famosa por suas festas. Enquanto os calouros tentam um lugar na irmandade, Dwight tenta salvar a Beta dos ataques da conservadora Fraternidade GEK, formada por nerds e comandada por Edgar que quer acabar com a supremacia dos libertinos.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-v"
+          "_anchor": "msg-box7-2m"
         }
       ]
     },
-    "page14.html": {
+    "page25.html": {
       "settings": {
         "meta_descr": "Website Maker Description",
-        "title": "Duvidas",
+        "title": "American:pie o livro do amor",
         "order": 15
       },
       "components": [
@@ -2543,8 +4220,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2552,76 +4230,74 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-x"
+          "_anchor": "menu-1o"
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": false,
-            "labelsColor": "#3d8eb9",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#15100f",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "duvidas ? fale comigo",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">enviar</a>",
-          "form": {
-            "action": "arombado321@gmail.com",
-            "alerts": {
-              "success": "Não Colocamos nenhum tipo de arquivo, Apenas indexamos"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
             }
           },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb09DbDA3SzZRanNyOFZwMlo1WG9tdERFUDZEVXBwaEg3QzJ2TnArZTZrODQ2OEV6NnlEMFBHNzkxVnlFMytUMEZNUTU4VEVBcnFZQnI2RXdLTUEvYXY=&sub=",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "American Pie: O livro do amor",
+          "text": "A história se passa dez anos depois da versão original. Decididos a perder a virgindade, três amigos estudantes usam um manual de sexo famoso.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
-          "_anchor": "form1-y",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#3d8eb9"
-            }
-          }
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-2n"
         }
       ]
     },
-    "page15.html": {
+    "page26.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "Alice no pais da maravilha",
+        "meta_descr": "Website Generator Description",
+        "title": "American Pie:O reencontro",
         "order": 14
       },
       "components": [
@@ -2694,8 +4370,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2703,12 +4380,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-13"
+          "_anchor": "menu-2t"
         },
         {
           "_inherit": "msg-box5",
@@ -2726,7 +4403,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/alice-in-wonderland17-2000x983.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/americanpie1-1600x900.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2745,7 +4422,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmania.com.br/player/?id=0BwUqN2UEdAtJcEpWUUZLeVlFN2s",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncS9uNnVXd3FzYTlHdURUVThydExyQ0JXWVdITG4yOEFmUVpiZ3ZySW5DLzA0eDJBeHcxY0ZIQjRtV1QvTjUzb3dkMlBxVUFXTm5tTlFHeFV6TDdYUVc=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2756,21 +4433,21 @@
               "size": 250
             }
           },
-          "title": "Alice no Pais das maravilhas",
-          "text": "Ainda garotinha, Alice Kingsleigh visitou um lugar mágico pela primeira vez e não tinha mais lembranças sobre o local a não ser em seus sonhos. Em uma festa da nobreza, a jovem vê um coelho branco. Alice o segue e cai em um buraco, indo parar em um mundo estranho: o País das Maravilhas. Lá, ela reencontra personagens que estavam guardados em sua memória através dos sonhos.",
+          "title": "American Pie:O reencontro",
+          "text": "Para comemorar dez anos de formatura do ensino médio, os personagens da série \"American Pie\" se reúnem em East Great Falls, Michigan, durante um fim de semana. Cada um deles vive um momento diferente, no entanto, alguns hábitos nunca mudam.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2o"
+          "_anchor": "msg-box7-2v"
         }
       ]
     },
-    "page16.html": {
+    "page27.html": {
       "settings": {
-        "meta_descr": "Site Maker Description",
-        "title": "marte precisa de mae",
+        "meta_descr": "Web Maker Description",
+        "title": "A volta do todo poderoso",
         "order": 13
       },
       "components": [
@@ -2843,8 +4520,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2852,12 +4530,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-14"
+          "_anchor": "menu-2w"
         },
         {
           "_inherit": "msg-box5",
@@ -2875,7 +4553,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x7200.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/a-volta-do-todo-poderoso-netflix-1280x720.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2894,7 +4572,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://streamango.com/embed/fcbfotmdkmeafbsr/",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb0pHcHFuV2V5Z05NUENaNm50VENGMUlZVzZKUW1QQ1ZJakZwRmo3aGEvZjlXc08rSnVJdG5HRWFSVjV4bGNQckpUYnhSbnVsUDQxZEZpYWIwVEtSTmQ=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -2905,21 +4583,21 @@
               "size": 250
             }
           },
-          "title": "Marte Precisa de Mães",
-          "text": "Milo é um garoto de nove anos com a agenda cheia. Ele precisa assistir a filmes com monstros, ler revistas em quadrinhos e fazer outras coisas divertidas. Ele certamente não tem tempo para fazer a lição de casa ou comer legumes. O garoto está cheio de ouvir a mãe reclamando sobre essas coisas. Quando Milo está para dizer à mãe que a vida seria mais divertida sem ela, os marcianos a raptam e Milo precisa resgatá-la.",
+          "title": "A Volta do todo Poderoso",
+          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2p"
+          "_anchor": "msg-box7-2x"
         }
       ]
     },
-    "page19.html": {
+    "page28.html": {
       "settings": {
-        "meta_descr": "Web Site Generator Description",
-        "title": "zootopia",
+        "meta_descr": "Website Builder Description",
+        "title": "IT A coisa",
         "order": 12
       },
       "components": [
@@ -2992,8 +4670,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3001,12 +4680,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-17"
+          "_anchor": "menu-2y"
         },
         {
           "_inherit": "msg-box5",
@@ -3024,7 +4703,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/flex-tablet-zootopia-selfie-c781d089-1536x864.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x720.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3043,7 +4722,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://streamango.com/embed/fsebkortdqerssrk/",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncmNlbmhtYmpBTlJOcC85TVE5djRoa1k2aHVTTDJ3eFNPYnhhMXlwWHlpWXZtSmF3dm9wdklSSHRqbW90ZTRoOVhaUnJMU211S2Z1WXNVRUxyTlRhZEh1M2NjS2k2UExsaEtMN2s4YXhkZGZpMjJYNE0vN2VNY0xtamw1eFBCRUc0PQ==&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3054,21 +4733,21 @@
               "size": 250
             }
           },
-          "title": "Zootopia",
-          "text": "Em uma cidade de animais, uma raposa falante se torna uma fugitiva ao ser acusada de um crime que não cometeu. O principal policial do local, o incontestável coelho, sai em sua busca.",
+          "title": "IT A coisa",
+          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2q"
+          "_anchor": "msg-box7-2z"
         }
       ]
     },
-    "page20.html": {
+    "page29.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "John carter",
+        "meta_descr": "Website Maker Description",
+        "title": "Carros 3",
         "order": 11
       },
       "components": [
@@ -3141,8 +4820,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3150,12 +4830,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-18"
+          "_anchor": "menu-3c"
         },
         {
           "_inherit": "msg-box5",
@@ -3173,7 +4853,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/taylor-kitsch-and-lynn-collins-in-john-carter-1429x729.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1-fu2foax9jw6u-q96cjjb4a-1600x806.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3192,7 +4872,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://streamango.com/embed/emarfqclpdepkkmk/",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncWFBSWJORmJkMEJBZGwwWnd0cFhqaUdhc2RDZUIxR3k3aTMwNS94TWszUVE5eURpUmJKRnJWc1pyYk1RS2pIUTZCMkNqR0dYNTg0ME9CMWpTWXdINEI=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3203,21 +4883,21 @@
               "size": 250
             }
           },
-          "title": "John Carter",
-          "text": "Quando o veterano da Guerra Civil John Carter acorda misteriosamente na superfície de Marte, ele não tem ideia da aventura que o aguarda. Ele acaba se envolvendo em um conflito épico entre os habitantes do planeta e o destino de todos está em suas mãos.",
+          "title": "Carros 3",
+          "text": "Surpreendido por uma nova gera��o de corredores incrivelmente r�pidos, o lend�rio Rel�mpago McQueen � repentinamente afastado do esporte que ama. Para voltar com tudo �s corridas, ele precisar� da ajuda da jovem treinadora de corridas, Cruz Ramirez. Com o seu plano para vencer, mais a inspira��o do Fabuloso Doc Hudson e alguns acontecimentos inesperados, eles partem para a maior aventura de suas vidas. O teste final do campe�o ser� na maior prova da Copa Pist�o!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2r"
+          "_anchor": "msg-box7-3d"
         }
       ]
     },
-    "page21.html": {
+    "page30.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "american pie:O casamento",
+        "meta_descr": "Web Site Builder Description",
+        "title": "Planeta do tesouro",
         "order": 10
       },
       "components": [
@@ -3290,8 +4970,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3299,12 +4980,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1k"
+          "_anchor": "menu-3e"
         },
         {
           "_inherit": "msg-box5",
@@ -3322,7 +5003,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1280x768.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3341,7 +5022,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncmVzNERaeXlRSEx4eVhDTzVIcEtyVXhQdzFoRlpRNzRxYVlDQ2xFNi9NUE5WY0F6VFlYWlNybTlrQjNjaDgzVlJhYWZPUnlsSWpNZ3JEcnZQMnF4WDI=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncE5xdU9hdm5vdU1yR3dPa2tiblBKK2M5Q1YwN1FxZExrWXNmYVJQNGwzVy96R1pQbGIyekZZTXI2c2ZFaW5ILzdnYllZVHQ3dHpsdzdBK1BuakZiSk1DNTJ3SXhWbUQyb1JhRTBvQ3JyeWVLN1lyRFFseVBPb3ViQlhneTM5aXZzPQ==&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3352,21 +5033,21 @@
               "size": 250
             }
           },
-          "title": "AMerican Pie:O Reencontro",
-          "text": "Mesmo que Jim e Michelle namorem há vários anos, ela ainda fica surpresa quando ele pede sua mão em casamento em seu restaurante favorito. Depois que ela alegremente concorda, Jim pede aos seus melhores amigos, Kevin e Paul, para ajudá-lo a ter certeza de que tudo dê certo no dia do casamento. Com a aproximação do grande dia, um problema surge quando o trio descobre que seu amigo Stifler está na cidade.",
+          "title": "Planeta do Tesouro",
+          "text": "Assim como os mares, o espaço também tem seus piratas e esconde segredos que só o jovem Jim Hawkins pode desvendar. A bordo de uma nave em forma de caravela, Jim e outros três passageiros vão em busca de um tesouro escondido.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2j"
+          "_anchor": "msg-box7-3f"
         }
       ]
     },
-    "page22.html": {
+    "page31.html": {
       "settings": {
-        "meta_descr": "Site Creator Description",
-        "title": "american pie: o campo de ferias",
+        "meta_descr": "Web Site Creator Description",
+        "title": "Caçadores de Dragoes",
         "order": 9
       },
       "components": [
@@ -3439,8 +5120,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3448,18 +5130,21 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1l"
+          "_anchor": "menu-3g"
         },
         {
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center"
             }
           },
           "_params": {
@@ -3471,7 +5156,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3490,7 +5175,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncFpNN2RmeGpFdE5LbDM3a1NMSTJncTUyck8zSVdodG9BSkFab09JdjJROWE2STQwZkt1WStMazl1NTFFc2ZkTk5IMk8vY0RrL0w3a1VlcTV6UjY3TCs=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncjV6MlZ4VDBNZncrTlZrWEtjYktNSjZmTzF3QlBxb0ptRzJTKzlwbWN3UCtGMmtvMFMrRGw5dG5QQ2FpMjloeHhlVjAvSnZoZlJzNEQ1bGVoTXVMVFRpMjc1emJORjdxcHk5QlpnRGhyZys2YWtPaWpiNUpmT2ZWRXZzb0s5WUpJPQ==&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3501,21 +5186,21 @@
               "size": 250
             }
           },
-          "title": "American Pie:campo de ferias",
-          "text": "Matt Stiffler quer seguir os passos do irmão mais velho e produzir filmes pornográficos. Porém, antes disso ele precisa vencer alguns desafios a fim de se formar no Ensino Médio. O maior de todos é a rigidez do conselheiro educacional, que envia Matt a Tall Oaks, um acampamento musical onde acontecem várias disputas entre bandas de escolas. Frustrado e aprontando todas, o jovem aos poucos começa a se envolver com outros colegas até desenvolver um interesse especial pela estudiosa Elyse.",
+          "title": "Caçadores de Dragoes",
+          "text": "Há perigo no Reino: um dragão está prestes a destruir o mundo! Uma garota decide ajudar seu tio, Lord Arnold, dono de um imenso castelo e de uma fabulosa fortuna, sai à procura de heróis iguais aos que ela conhece dos contos de fadas. Mas ao invés disso encontra Gwizdo e Lian-Chu, dois atrapalhados caçadores de dragão. Determinada a seguir com eles em sua aventura para salvar a terra. Zoe parte em uma viagem perigosa, para um mundo desconhecido de dragões adormecidos, que podem acordar a qualquer momento.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2k"
+          "_anchor": "msg-box7-3h"
         }
       ]
     },
-    "page23.html": {
+    "page32.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "american pie:O ultimo stifler virgem",
+        "meta_descr": "Web Maker Description",
+        "title": "Barbie: Aventuras nas estrelas",
         "order": 8
       },
       "components": [
@@ -3588,8 +5273,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3597,12 +5283,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1m"
+          "_anchor": "menu-3i"
         },
         {
           "_inherit": "msg-box5",
@@ -3620,7 +5306,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3639,7 +5325,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncHVpL0F0MjMwbC9CSlFiU1BpalpwVHRYZ095L0N3S2RGbjhXMDd2ekxadHZuVTh5Rzh5emRuOVVOaWtIN1VUNzR2YTl5OUU1M1JjWDBoTXBqZ2tieXg=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb3RoMUhnaWg3YWZlWXc0WTJ5eDhXaFhnVFJBejVHOGRYV3ArL0l5U2ZnenlqbjNRR04wcXVJZUxZcENCb0ExUWZCc2U1MENsL0Q2NElaaHM1VWNXMXI=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3650,21 +5336,21 @@
               "size": 250
             }
           },
-          "title": "American Pie: O ultimo Stifler virgem",
-          "text": "O primo de Matt e Steve, Erik Stifler, quer perder a virgindade antes de terminar o semestre na faculdade. Para ajudá-lo, os amigos o inscrevem um uma famosa corrida local, na qual os participantes correm nus pelo campus.",
+          "title": "Barbie:Aventuras nas Estrelas",
+          "text": "Barbie™ leva uma vida cheia de aventura e diversão voando de hoverboard junto com seu bichinho Pipoca em um maravilhoso planeta distante. Um dia tudo muda quando o brilho da sua galáxia enfraquece e as estrelas começam a parar sua dança pelo céu. Mesmo com receio de deixar seu lar, Barbie™ viaja para o Planeta Capital e se une a uma equipe incrível em uma missão para salvar as estrelas. Lá, ela encontra a campeã galáctica de hoverboard, Sal-lee, e um grupo de amigos cheios de talento. Barbie™ logo descobre que escutando seu coração e com a ajuda de seus amigos, ela pode se tornar a líder que a galáxia inteira está esperando.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2l"
+          "_anchor": "msg-box7-3j"
         }
       ]
     },
-    "page24.html": {
+    "page33.html": {
       "settings": {
-        "meta_descr": "Site Generator Description",
-        "title": "American Pie:caindo em tentação",
+        "meta_descr": "Web Maker Description",
+        "title": "vida de inseto",
         "order": 7
       },
       "components": [
@@ -3737,8 +5423,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3746,12 +5433,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1n"
+          "_anchor": "menu-3k"
         },
         {
           "_inherit": "msg-box5",
@@ -3769,7 +5456,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3788,7 +5475,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb3cyQ053aDVJZ2xKQ0krd3ltd2E4aVBvOGlZeGNERmZDd2hqcXpBMGZ3dXJlTmhNZ3Uvc0luNVYyckp6UkdLTS9IZWhRZ0dmTm5EVTg0QnpseXQ1WWM=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncmpneVhGYk1DVTNxNXpWbjk3bmJuTHNtVzdsYnNjdEptdWprQU03RWxLYTRwV0p6QytUYXA5alFTSUU0RWJ1MWlraFhPamk0OUswS205Q1R3Ti9TMit3aWN5WW11K09LUlhMYkwzTUJqYU51NXQ1WGdNL2I1c3M0YTJ2VDR2b3JFPQ==&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3799,21 +5486,21 @@
               "size": 250
             }
           },
-          "title": "American Pie: caindo em tentação",
-          "text": "Erik Stifler e Cooze ingressam na vida acadêmica, na Universidade de Michigan. Os dois logo são são apresentados a Fraternidade Beta, presidida pelo lendário Dwight Stifler, primo de Erik. A Fraternidade Beta é famosa por suas festas. Enquanto os calouros tentam um lugar na irmandade, Dwight tenta salvar a Beta dos ataques da conservadora Fraternidade GEK, formada por nerds e comandada por Edgar que quer acabar com a supremacia dos libertinos.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "title": "Vida de inseto",
+          "text": "Todo ano, os gananciosos gafanhotos exigem uma parte da colheita das formigas. Mas quando algo dá errado e a colheita destruída, os gafanhotos ameaçam atacar e as formigas são forçadas a pedir ajuda a outros insetos para enfrentá-los numa batalha.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2m"
+          "_anchor": "msg-box7-3l"
         }
       ]
     },
-    "page25.html": {
+    "page34.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
-        "title": "American:pie o livro do amor",
+        "meta_descr": "Web Page Generator Description",
+        "title": "Angry birds",
         "order": 6
       },
       "components": [
@@ -3886,8 +5573,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3895,12 +5583,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1o"
+          "_anchor": "menu-3m"
         },
         {
           "_inherit": "msg-box5",
@@ -3918,7 +5606,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/american-pie-5-movie-810x347.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/angrybirds-10-750x380.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -3937,7 +5625,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb09DbDA3SzZRanNyOFZwMlo1WG9tdERFUDZEVXBwaEg3QzJ2TnArZTZrODQ2OEV6NnlEMFBHNzkxVnlFMytUMEZNUTU4VEVBcnFZQnI2RXdLTUEvYXY=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncWN5aXNCWmMxVkoyUjNtYjlBR3oyMkZFMFFKdWVMRW5CK2x5Q25ReG9uSDQ3S0dQenZHVmNXT0ZXeHRTbEZvUGY3QlJ3L2pZdHllT25tZHhacTFBMnc=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -3948,21 +5636,171 @@
               "size": 250
             }
           },
-          "title": "American Pie: O livro do amor",
-          "text": "A história se passa dez anos depois da versão original. Decididos a perder a virgindade, três amigos estudantes usam um manual de sexo famoso.",
+          "title": "Angry Birds",
+          "text": "Red, um pássaro com problemas de temperamento, o veloz Chuck, e o volátil Bomba sempre foram excluídos. Mas quando a ilha onde moram é visitada por misteriosos porquinhos verdes, cabe a estes improváveis rejeitados descobrir qual o plano da gangue suína.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2n"
+          "_anchor": "msg-box7-3n"
         }
       ]
     },
-    "page26.html": {
+    "page35.html": {
       "settings": {
-        "meta_descr": "Website Generator Description",
-        "title": "American Pie:O reencontro",
+        "meta_descr": "Website Creator Description",
+        "title": "B 13 distrito",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page14.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">Home</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3r"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncEpHbXVXYSsrYXNSMEVtSm9iRlRJNTJEbHNzR2hwUDV2OGJvSEp6bFhFRUNoZERnbERpQnBGZVZzUlJ2dVI3M3JhOTM4dkdLNWhjU2FmVkk2clVDNkE=&sub=",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "13º DISTRITO",
+          "text": "Subúrbio de Paris, 2013. ninguém consegue controlar o 13º Distrito. A polícia tenta aprender como fazer isto. Dois jovens heróis, nascidos quando aquilo se tornou uma terra de ninguém e lutando contra um governo repressor, têm 24 horas para entrar e salvar o que se tornou um local violento e fora de controle.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-3s"
+        }
+      ]
+    },
+    "page36.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "ANJOS DA NOITE:GUERRA DE SANGUE",
         "order": 4
       },
       "components": [
@@ -4035,8 +5873,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -4044,12 +5883,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-2t"
+          "_anchor": "menu-3t"
         },
         {
           "_inherit": "msg-box5",
@@ -4067,7 +5906,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/americanpie1-1600x900.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -4086,7 +5925,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncS9uNnVXd3FzYTlHdURUVThydExyQ0JXWVdITG4yOEFmUVpiZ3ZySW5DLzA0eDJBeHcxY0ZIQjRtV1QvTjUzb3dkMlBxVUFXTm5tTlFHeFV6TDdYUVc=&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncEcxV0VRbkpKTjViem9aWG5XeEdLR0VYTnY1TWpScjhYc0V2T1lFelJjTUJEWVp2UHVsdUp1Z0VwNzZOSUQ0c3IxRDNic2dZZUVaL0VEYWhiZXZiVGQ=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -4097,21 +5936,21 @@
               "size": 250
             }
           },
-          "title": "American Pie:O reencontro",
-          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
+          "title": "ANJOS DA NOITE:GUERRA DE S.",
+          "text": "Selene (Kate Beckinsale) é uma guerreira vampira que luta para acabar com a guerra eterna entre o clã Lycan de lobisomens sanguinários e a facção de vampiros que a traiu. Quando um novo levante parece tomar forma, ela irá utilizar sua influência e relacionamento com ambas as partes para negociar um cessar fogo.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2v"
+          "_anchor": "msg-box7-3u"
         }
       ]
     },
-    "page27.html": {
+    "page37.html": {
       "settings": {
-        "meta_descr": "Web Maker Description",
-        "title": "A volta do todo poderoso",
+        "meta_descr": "Web Page Generator Description",
+        "title": "AC DC AO VIVO: RIVER PLATE",
         "order": 3
       },
       "components": [
@@ -4184,8 +6023,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -4193,12 +6033,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-2w"
+          "_anchor": "menu-3v"
         },
         {
           "_inherit": "msg-box5",
@@ -4216,7 +6056,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/a-volta-do-todo-poderoso-netflix-1280x720.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -4235,7 +6075,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb0pHcHFuV2V5Z05NUENaNm50VENGMUlZVzZKUW1QQ1ZJakZwRmo3aGEvZjlXc08rSnVJdG5HRWFSVjV4bGNQckpUYnhSbnVsUDQxZEZpYWIwVEtSTmQ=&sub=",
+              "src": "https://content.jwplatform.com/previews/KwlcQTJQ-54aDT56a",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -4246,22 +6086,22 @@
               "size": 250
             }
           },
-          "title": "A Volta do todo Poderoso",
-          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
+          "title": "AC/DC AO VIVO:RIVER PLATE",
+          "text": "AC/DC ao vivo no River Plate � um concerto ao vivo e tamb�m um v�deo documentando. Filmado com 32 c�meras inteiramente em HD em dezembro de 2009, AC/DC retornam a Buenos Aires, onde quase 200.000 f�s em 3 shows com ingressos esgotados..",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2x"
+          "_anchor": "msg-box7-3w"
         }
       ]
     },
-    "page28.html": {
+    "page38.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "IT A coisa",
-        "order": 2
+        "meta_descr": "Web Builder Description",
+        "title": "ANJOS DA NOITE:A REBELIAO",
+        "order": 1
       },
       "components": [
         {
@@ -4333,8 +6173,9 @@
               "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -4342,12 +6183,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">overplay</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-2y"
+          "_anchor": "menu-3z"
         },
         {
           "_inherit": "msg-box5",
@@ -4365,7 +6206,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x720.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -4384,7 +6225,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1ncmNlbmhtYmpBTlJOcC85TVE5djRoa1k2aHVTTDJ3eFNPYnhhMXlwWHlpWXZtSmF3dm9wdklSSHRqbW90ZTRoOVhaUnJMU211S2Z1WXNVRUxyTlRhZEh1M2NjS2k2UExsaEtMN2s4YXhkZGZpMjJYNE0vN2VNY0xtamw1eFBCRUc0PQ==&sub=",
+              "src": "http://filmesmaniahd.com/embed/play.php?url=TlpRTHBXaERwdUQxenlmbXJsV3RRcFBzY0o5N0Fud24zSnpwYlFlOE1nb1dmNkVFaXFyeG9ZdW5zY3NJR2JXYWpubWcvS1dkN0MwelVEdi9rMC9UTW5UYWNvMW5yZ3crWDVDSEtzaUFxWHpkb1JxQmZERkZTbTcvK2ZzNG5CdE0=&sub=",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": false
@@ -4395,14 +6236,14 @@
               "size": 250
             }
           },
-          "title": "IT A coisa",
-          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
+          "title": "ANJOS DA NOITE:A REBELIAO",
+          "text": "Mais um capítulo da saga \"Anjos da Noite\", aqui retornando ao início de tudo para contar as origens da disputa sanguinária entre os vampiros aristocráticos conhecidos como Death Dealers e seus escravos Lycans. Na história, o jovem Lycan chamado Lucian (Sheen) surge como um poderoso líder que reúne os lobisomens para desafiar Viktor (Nighy), o cruel vampiro que os escravizou. Lucian, contando com a ajuda de sua amante secreta Sonja (Mitra), vai iniciar uma batalha sangrenta contra o exército Death Dealer para conquistar a liberdade dos Lycan.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box7",
-          "_anchor": "msg-box7-2z"
+          "_anchor": "msg-box7-41"
         }
       ]
     }
