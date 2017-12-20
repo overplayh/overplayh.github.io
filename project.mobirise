@@ -410,14 +410,13 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sy22cnkct2ajvsfjtigwjpqftf7-600x900.jpg",
+              "src": "@PROJECT_PATH@/assets/images/esquadro-suicida-400x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "page41.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "media2": {
