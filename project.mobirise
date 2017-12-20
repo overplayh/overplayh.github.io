@@ -142,25 +142,6 @@
               "font-size": "13px"
             }
           }
-        },
-        {
-          "_afterNavbarItem": false,
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "sound": "https://soundcloud.com/techno-girl/charlie-clouser-dead-silence-dead-silence-soundtrack",
-            "autoplay": true,
-            "fullWidth": true,
-            "bgColor": "#000000"
-          },
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F8999896&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F8999896",
-          "alias": "soundcloud",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "soundcloud1",
-          "_anchor": "soundcloud1-4k"
         }
       ]
     },
@@ -168,7 +149,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "FILMES",
-        "order": 7
+        "order": 1
       },
       "components": [
         {
@@ -1253,25 +1234,6 @@
           ],
           "_name": "features3",
           "_anchor": "features3-3q"
-        },
-        {
-          "_afterNavbarItem": false,
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "sound": "https://soundcloud.com/techno-girl/charlie-clouser-dead-silence-dead-silence-soundtrack",
-            "autoplay": true,
-            "fullWidth": true,
-            "bgColor": "#000000"
-          },
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F8999896&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F8999896",
-          "alias": "soundcloud",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "soundcloud1",
-          "_anchor": "soundcloud1-4l"
         }
       ]
     },
@@ -7031,7 +6993,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "ESQUADRAO SUICIDA",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -7186,7 +7148,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "ZOHAN",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -7341,7 +7303,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "AS APIMENTADAS:DESAFIO MUNDIAL",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -7496,7 +7458,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "ONDE ESTAR O DINHEIRO",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -7654,7 +7616,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "GUARDIOES DA GALAXYA 2",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -7812,7 +7774,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "PLANETA DOS MACACO: A GUERRA",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
