@@ -26,7 +26,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 179,
+    "uniqCompNum": 181,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-128x140.png",
     "noImageResize": "",
@@ -153,6 +153,63 @@
       },
       "components": [
         {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": "55",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/01a3991c4381488c81bde89105db6e32-41d9c123656547458a378aec843330b9-header-1920x917.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.9"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=rDbDS8p2qkI",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "O Chamado 3",
+          "text": "Julia resolve se distanciar do namorado Holt após assistir uma fita amaldiçoada. Depois, eles terão que se unir para salvarem suas vidas de uma possuída Samara.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">assistir</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-4z"
+        },
+        {
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -249,7 +306,7 @@
             "showSubtitles": false,
             "ShowTexts": false,
             "showButtons": false,
-            "paddingTop": "1",
+            "paddingTop": "0",
             "paddingBottom": "0",
             "columns": "6",
             "bgImageRadio": false,
@@ -297,8 +354,7 @@
               "active": true,
               "link": "page4.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "media4": {
@@ -427,14 +483,13 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/snpnzbpn3nhht0uofnkuv5oaznr-600x845.jpg",
+              "src": "@PROJECT_PATH@/assets/images/567676.jpg-c-215-290-x-f-jpg-q-x-xxyxx-215x290.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "page50.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "media5": {
