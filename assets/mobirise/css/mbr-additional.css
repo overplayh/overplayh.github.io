@@ -420,6 +420,12 @@ h6,
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
 }
+#header6-4z .mbr-section-title {
+  color: #ffffff;
+}
+#header6-4z .mbr-section-text {
+  color: #565656;
+}
 #menu-4 .hide-buttons .nav-btn {
   display: none !important;
 }
