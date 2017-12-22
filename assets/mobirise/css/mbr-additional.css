@@ -420,12 +420,6 @@ h6,
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
 }
-#header6-4z .mbr-section-title {
-  color: #ffffff;
-}
-#header6-4z .mbr-section-text {
-  color: #565656;
-}
 #menu-4 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -486,6 +480,16 @@ h6,
 #menu-4 .link[aria-expanded="true"],
 #menu-4 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#contacts3-56 SPAN {
+  color: #000000;
+  text-align: left;
+}
+#contacts3-56 H4 {
+  color: #000000;
+}
+#contacts3-56 P {
+  color: #c1c1c1;
 }
 #menu-5 .hide-buttons .nav-btn {
   display: none !important;

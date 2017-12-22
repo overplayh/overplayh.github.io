@@ -26,7 +26,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 181,
+    "uniqCompNum": 187,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-128x140.png",
     "noImageResize": "",
@@ -152,63 +152,6 @@
         "order": 1
       },
       "components": [
-        {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-text": {
-              "color": "#565656"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
-            "imageSize": "55",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ring-3-rings-movie-release-date-2016-1280x640.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.9"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=rDbDS8p2qkI",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "O Chamado 3",
-          "text": "Julia resolve se distanciar do namorado Holt após assistir uma fita amaldiçoada. Depois, eles terão que se unir para salvarem suas vidas de uma possuída Samara.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">assistir</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-4z"
-        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -1414,6 +1357,119 @@
           ],
           "_name": "features3",
           "_anchor": "features3-3q"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/hulk-thor-ragnarok-comic-con-poster-1200x600.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/150px-popcorn2012ff-116x128.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "play",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "play",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">enviar</a>",
+          "title1": "Categorias",
+          "text1": "filmes gratis e sem anuncios,players 420 p,1080p,720p, nao colocamos nenhum tipo de arquivo, apenas indexamos...",
+          "text2": "Filmes gratis",
+          "text3": "filmes adicionados todos os dias",
+          "text4": "Nenhuma",
+          "text5": "<li>Lançamentos</li><li>Aventura</li><li>Desenhos</li><li>terror</li><li>Series</li>",
+          "text6": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Parceiros</b></span></font><br>leproxal<br>junior<br>melina<br>estrela<br>amber<br>power<br>marta<br><br><br><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>overplayH 2017</b></span></font><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "arombado321@gmail.com",
+            "alerts": {
+              "success": "Obrigado!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Gmail"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "menssagem"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-56",
+          "_styles": {
+            "SPAN": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            "H4": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#c1c1c1"
+            }
+          }
         }
       ]
     },
@@ -3715,7 +3771,7 @@
             "paddingTop": "6",
             "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x7202.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x7200.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
