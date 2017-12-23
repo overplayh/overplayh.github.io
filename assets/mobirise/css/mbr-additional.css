@@ -413,6 +413,12 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#form2-6n .mbr-section-title {
+  color: #fff;
+}
+#form2-6n .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #form1-3o .form-control-label {
   color: #ffffff;
 }
@@ -3758,7 +3764,7 @@ h6,
 }
 #menu-58 .link[aria-expanded="true"],
 #menu-58 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #b8312f!important;
 }
 #msg-box7-5a .mbr-section-title,
 #msg-box7-5a .lead p {
