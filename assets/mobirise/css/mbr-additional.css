@@ -7333,6 +7333,20 @@ body {
     padding-top: 3rem;
   }
 }
+.cid-qKip8fyeTn {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #149dcc;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-qKip8fyeTn .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-qKip8fyeTn .video-block {
+    width: 100% !important;
+  }
+}
 .cid-qGw7nkR6Tq .navbar {
   padding: .5rem 0;
   background: #000000;
