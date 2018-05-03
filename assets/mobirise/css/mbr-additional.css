@@ -1764,3 +1764,33 @@ body {
 .cid-qR0e8zFJ3T .popup-btn:hover .mbr-section-btn {
   opacity: 1;
 }
+.cid-qR0mBv65ZK {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #000000, #000000);
+}
+@media (min-width: 992px) {
+  .cid-qR0mBv65ZK .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qR0mBv65ZK .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-qR0mWp5R3y {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #000000, #000000);
+}
+@media (min-width: 992px) {
+  .cid-qR0mWp5R3y .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qR0mWp5R3y .mbr-figure {
+    padding-top: 3rem;
+  }
+}
