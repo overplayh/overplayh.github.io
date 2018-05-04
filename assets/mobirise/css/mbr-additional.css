@@ -1527,17 +1527,16 @@ body {
 .cid-qR5R28cTyh .popup-btn:hover .mbr-section-btn {
   opacity: 1;
 }
-.cid-qR0mBv65ZK {
-  background: linear-gradient(45deg, #000000, #000000);
+.cid-qR5WXFUO7d {
+  background: #ffffff;
 }
-@media (min-width: 992px) {
-  .cid-qR0mBv65ZK .mbr-figure {
-    padding-left: 4rem;
-  }
+.cid-qR5WXFUO7d .video-block {
+  margin: auto;
+  width: 100% !important;
 }
-@media (max-width: 991px) {
-  .cid-qR0mBv65ZK .mbr-figure {
-    padding-top: 3rem;
+@media (max-width: 768px) {
+  .cid-qR5WXFUO7d .video-block {
+    width: 100% !important;
   }
 }
 .cid-qR5SpAEwsc {
