@@ -2315,6 +2315,45 @@ body {
     padding: 15px;
   }
 }
+.cid-qRXm6g6n5v {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
+}
+.cid-qRXm6g6n5v .card-img {
+  background-color: #fff;
+}
+.cid-qRXm6g6n5v .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-qRXm6g6n5v h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qRXm6g6n5v p {
+  text-align: left;
+}
+.cid-qRXm6g6n5v .mbr-text {
+  color: #767676;
+}
+.cid-qRXm6g6n5v .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-qRXm6g6n5v .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-qRXm6g6n5v .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
+}
 .cid-qRqNgRRkWj {
   padding-top: 30px;
   padding-bottom: 30px;
