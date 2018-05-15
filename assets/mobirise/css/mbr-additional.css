@@ -2977,3 +2977,15 @@ body {
   padding-bottom: 30px;
   background-color: #000000;
 }
+.cid-qS547pgo4m {
+  background: #ffffff;
+}
+.cid-qS547pgo4m .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qS547pgo4m .video-block {
+    width: 100% !important;
+  }
+}
