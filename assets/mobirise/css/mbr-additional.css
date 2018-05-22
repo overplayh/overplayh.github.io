@@ -14254,3 +14254,15 @@ body {
   padding-bottom: 30px;
   background-color: #000000;
 }
+.cid-qSOaYRukbi {
+  background: #ffffff;
+}
+.cid-qSOaYRukbi .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qSOaYRukbi .video-block {
+    width: 100% !important;
+  }
+}
