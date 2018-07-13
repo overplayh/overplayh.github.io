@@ -15820,3 +15820,15 @@ body {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+.cid-qXHJeNqOMA {
+  background: #ffffff;
+}
+.cid-qXHJeNqOMA .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qXHJeNqOMA .video-block {
+    width: 100% !important;
+  }
+}

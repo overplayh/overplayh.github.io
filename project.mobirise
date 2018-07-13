@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Overplayh",
-    "currentPage": "index.html",
+    "currentPage": "rampage.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
     "cookiesAlert": "Nós usamos cookies para lhe proporcionar a melhor experiência. Leia nossa <a href='privacy.html'> política de cookies </a>.",
     "google-analytics": "",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 170,
+    "uniqCompNum": 171,
     "versionPublish": "4.7.6",
     "screenshot": "screenshot.png",
     "siteFonts": [
@@ -606,7 +606,7 @@
       "settings": {
         "meta_descr": "Bem Vindos",
         "title": "Todos Os Filmes",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1519,7 +1519,7 @@
       "settings": {
         "meta_descr": "duvidas",
         "title": "Duvidas",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1995,7 +1995,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Jumanji2",
-        "order": 36
+        "order": 37
       },
       "components": [
         {
@@ -2460,7 +2460,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "o homem das cavernas",
-        "order": 35
+        "order": 36
       },
       "components": [
         {
@@ -2925,7 +2925,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "diario de um banana",
-        "order": 34
+        "order": 35
       },
       "components": [
         {
@@ -3390,7 +3390,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Diario de um banana 2",
-        "order": 33
+        "order": 34
       },
       "components": [
         {
@@ -3855,7 +3855,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Diario de um banana 3",
-        "order": 32
+        "order": 33
       },
       "components": [
         {
@@ -4320,7 +4320,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "a lenda do tesouro 1",
-        "order": 31
+        "order": 32
       },
       "components": [
         {
@@ -4785,7 +4785,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "jurassic world",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -5250,7 +5250,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "hancock",
-        "order": 29
+        "order": 30
       },
       "components": [
         {
@@ -5715,7 +5715,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "vizinhos 2",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -6180,7 +6180,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "lanterna verde",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -6645,7 +6645,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "pay the ghost",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -7110,7 +7110,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "maze runner 3",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -7575,7 +7575,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "viva: a vida é uma festa",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -8040,7 +8040,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "ferdinando",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -8505,7 +8505,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "pantera negra",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -8970,7 +8970,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "the hobbit: a desoção de smaug",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -9435,7 +9435,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "batman vs superman",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -9900,7 +9900,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "anjos da noite: guerra de sangue",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -10365,7 +10365,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Thor: Ragnarok",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -10830,7 +10830,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "uma ladra sem limite",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -11295,7 +11295,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "corrida mortal 3",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -11760,7 +11760,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Mazze runner: prova de fogo",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -12225,7 +12225,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "pai em dose dupla",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -12690,7 +12690,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "panico na floresta 6",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -13155,7 +13155,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "planeta dos macaco: o confronto",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -13620,7 +13620,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "VINGADORES GUERRA INFINITA",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -14085,7 +14085,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Sobrenatural: A Ultima Chave",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -14550,7 +14550,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "DeadPool 2",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -15015,7 +15015,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "CARGO",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -15480,7 +15480,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Baywatch",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -15520,7 +15520,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Guardiões da Galaxia 2",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -15985,7 +15985,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "a grande muralha",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -16450,7 +16450,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "o espetacular homem aranha",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -16915,7 +16915,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Categoria",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -17053,6 +17053,46 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "rampage.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "RAMPAGE",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://openload.co/embed/yVOcYGa9qE8/?loop=0&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "qXHJeNqOMA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video2-4q"
         }
       ]
     }
